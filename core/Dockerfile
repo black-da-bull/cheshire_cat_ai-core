@@ -1,5 +1,5 @@
 
-FROM python:3.10.11-slim-bullseye
+FROM python:3.14.0a3-slim-bullseye
 
 ### SYSTEM SETUP ###
 RUN apt-get -y update && apt-get install -y curl build-essential fastjar libmagic-mgc libmagic1 mime-support && \
